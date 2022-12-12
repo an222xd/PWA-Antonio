@@ -1,0 +1,12 @@
+                                          PfSense
+                                  
+NOMBRE DEL ARCHIVO                                            SHA-256
+
+Comprimido .iso.gz	           fda93684669ad0b2b9e314a53d5c7272076484a6b714d60d5e06f14e1c7ce049
+
+Descomprimido .iso                 fb1d253f9c594a7e32418cf43e4b56cf17976ce4fdb6061fdae559b1bd15df11
+
+
+
+                        
+                                        © FRB, 2021

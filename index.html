@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="img/img/normalogo.png">
+	<title>Seguridad Informática</title>
+
+	<meta name="description" content="Bienvenidos">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<noscript>
+		<link rel="stylesheet" href="css/noscript.css">
+	</noscript>
+
+	<meta name="theme-color" content="#252e47">
+	<meta name="MobileOptimized" content="width">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	
+	<script type="text/javascript" src="js/pouchdb.min.js"></script>
+	<link rel="manifest" href="./manifest.json">
+	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<a class="logo"><strong>PWA Aplication</strong> <span>Aplicaciones Web Progresivas Unidad II</span></a>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="pages/datospersonales.html">Protección de datos</a></li>
+				<li><a href="pages/propiedadindustrial.html">Propiedad industrial</a></li>
+				<li><a href="pages/derechosautor.html">Derechos de autor</a></li>
+				<li><a href="pages/codigopenal.html">Código penal federal</a></li>
+				<li><a href="pages/manejoinformacion.html">Manejo de la información</a></li>
+			</ul>
+		</nav>
+
+		<!-- Banner -->
+		<section id="banner" class="major">
+			<span class="image">
+				<img src="img/img/home.jpg" alt="" />
+			</span>
+			<div class="inner">
+				<header class="major">
+					<h1><img src="img/img/normalogo.png" width="60" height="60"> Normateca Digital PWA</h1>
+				</header>
+				<div class="major">
+					<p><b>Garcia Martinez Jose Antonio</b><br /><br />
+						Universidad Tecnológica del Norte de Guanajuato<br />
+						Ingeniería en Gestión y Desarrollo de Software<br />
+						Aplicaciones Web Progresivas<br /><br />
+						<b>No.Control:</b> 1218100524 <br /> <b>Grupo:</b> GDGS2101-E
+						<a href="./php.html" title="Php" style="text-align: right">
+							<i class="fa fa-map-marker-alt"></i>
+						</a>
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- One -->
+			<section id="one" class="tiles">
+				<article>
+					<span class="image">
+						<img src="img/img/datos.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3><a href="pages/datospersonales.html" class="link">Ley general de protección de datos
+								personales de México</a></h3>
+
+					</header>
+				</article>
+				<article>
+					<span class="image">
+						<img src="img/img/industrial.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3><a href="pages/propiedadindustrial.html" class="link">Ley de propiedad industrial</a></h3>
+
+					</header>
+				</article>
+				<article>
+					<span class="image">
+						<img src="img/img/autor.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3><a href="pages/derechosautor.html" class="link">Ley federal de derechos de autor</a></h3>
+
+					</header>
+				</article>
+				<article>
+					<span class="image">
+						<img src="img/img/penal.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3><a href="pages/codigopenal.html" class="link">Código penal federal</a></h3>
+
+					</header>
+				</article>
+			</section>
+
+		</div>
+
+		<!-- Contact -->
+		<section id="contact">
+			<div class="inner">
+				<section>
+					<main class="Main">
+						<h1>Contactanos</h1>
+						<br />
+						<label for="nombreCompleto">Nombre:</label>
+						<br>
+						<input placeholder="Nombre y apellidos" type="text" name="nombreCompleto" id="nombreCompleto" />
+						<br>
+						<label for="telefono">Gmail:</label>
+						<br>
+						<input placeholder="normatecadigital@gmail.com" type="tel" name="telefono" id="telefono" />
+						<br>
+						<label for="comentario">Mensaje:</label>
+						<br>
+						<textarea placeholder="Mensaje" name="comentario" id=comentario rows="4" cols="30"></textarea>
+						<br>
+						<br>
+
+						<br>
+						<br>
+						<button id="btnGuardar">Guardar</button>
+						<button id="btnGuardarCambios">Guardar cambios</button>
+						<button id="btnCancelarEdicion">Cancelar</button>
+						<br />
+						<br />
+						<table>
+							<thead>
+								<tr>
+									<th>Nombre</th>
+									<th>Gmail</th>
+									<th>Mensaje</th>
+									<th>Modificar</th>
+									<th>Eliminar</th>
+								</tr>
+							</thead>
+							<tbody id="cuerpoTabla">
+
+							</tbody>
+						</table>
+					</main>
+				</section>
+				<section class="split">
+					<section>
+						<div class="contact-method">
+							<span class="icon solid alt fa-envelope"></span>
+							<h3>Gmail</h3>
+							<a href="https://mail.google.com">jose222xd@gmail.com</a>
+						</div>
+					</section>
+					<section>
+						<div class="contact-method">
+							<span class="icon solid alt fa-phone"></span>
+							<h3>Telefono</h3>
+							<span>(468) 115 3548<br />
+								(468) 115 3548</span>
+						</div>
+					</section>
+				</section>
+			</div>
+		</section>
+	</div>
+
+	<!-- Scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.scrolly.min.js"></script>
+	<script src="js/jquery.scrollex.min.js"></script>
+	<script src="js/browser.min.js"></script>
+	<script src="js/breakpoints.min.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/main.js"></script>
+
+	<script src="./script.js"></script>
+	<script src="./bd.js"></script>
+
+</body>
+
+</html>
